@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'gilroyLight';
+    src: url('../fonts/Gilroy/gilroy-light.ttf');
+}
+
+@font-face {
+    font-family: 'gilroyMedium';
+    src: url('../fonts/Gilroy/gilroy-medium.ttf');
+}
+
+@font-face {
+    font-family: 'gilroySemibold';
+    src: url('../fonts/Gilroy/gilroy-semibold.ttf');
+}
+
+@font-face {
+    font-family: 'gilroyExtrabold';
+    src: url('../fonts/Gilroy/gilroy-extrabold.ttf');
+}
