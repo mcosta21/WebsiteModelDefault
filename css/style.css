@@ -1,3 +1,36 @@
-body{
-    font-family: gilroySemibold;
+
+@import url(./fonts.css);
+@import url(./partials/_variables.css);
+
+/* Start navigation */
+
+.headerArea .mainMenu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
 }
+
+.headerArea .mainMenu .navbar{
+    padding: 1rem 20rem;
+}
+
+.headerArea .mainMenu .nav-item .nav-link{
+    font-family: var(--gilroyMedium);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(red);
+}
+
+.headerArea .mainMenu .navbar-nav .active a{
+    background-color: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.headerArea .mainMenu .navbar-nav .active a:hover{
+    background-color: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* End navigation */
