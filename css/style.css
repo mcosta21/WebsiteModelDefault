@@ -1,36 +1,79 @@
 
 @import url(./fonts.css);
 @import url(./partials/_variables.css);
+@import url(./partials/_global.css);
 
 /* Start navigation */
 
 .headerArea .mainMenu .navbar .navbar-brand{
-    padding: 0 2rem 0 5rem;
+    padding: 0 2rem 0 2rem;
 }
 
 .headerArea .mainMenu .navbar{
-    padding: 1rem 20rem;
+    padding: 1rem 10rem;
 }
 
 .headerArea .mainMenu .nav-item .nav-link{
-    font-family: var(--gilroyMedium);
+    font: normal 500 15px/2px var(--gilroyMedium);
     text-transform: uppercase;
     padding: 1.7rem;
-    color: var(red);
+    color: var(--second-color)
 }
 
 .headerArea .mainMenu .navbar-nav .active a{
     background-color: var(--gradient-color);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: blueviolet;
+    /*-webkit-text-fill-color: transparent;*/
     background-clip: text;
 }
 
-.headerArea .mainMenu .navbar-nav .active a:hover{
+.headerArea .mainMenu .navbar-nav a:hover{
     background-color: var(--gradient-color);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: blueviolet;
+    /*-webkit-text-fill-color: transparent;*/
     background-clip: text;
 }
 
 /* End navigation */
+
+/* Start banner */
+
+.siteMain .bannerMain{
+    background-image: url('../img/home-banner.png');
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+}
+
+.siteMain .bannerMain .bannerText h3{
+    padding-top: 25%;
+    font-weight: 500;
+}
+
+.siteMain .bannerMain .bannerText h3::after{
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.siteMain .bannerMain .bannerText h1{
+    font-size: 3.5rem;
+}
+
+.siteMain .bannerMain .bannerText h4{
+    font-size: 1.5rem;
+}
+
+.siteMain .bannerMain .bannerImage > img{
+    padding: 4rem 0;
+    width: 90rem;
+}
+
+
+
+/* End banner */
